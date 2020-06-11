@@ -12,6 +12,7 @@ const PI = 3.14;
 numero = 54; 
 palabra = "Adiós"; // es indiferente que usemos comillas simples o comillas dobles,
 //aunque hayamos usado una de ellas en la inicialización de la misma variable
+palabra = 'Hola otra vez';
 
 // Mostrar por consola el valor de la variable indicada
 console.log(palabra);

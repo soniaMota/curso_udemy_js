@@ -123,7 +123,7 @@ console.log(cadena.repeat(3)); //Devuelve nuestro 'Hola Mundo' escrito, seguido,
 
 /* let nombre = 'Sonia';
 let apellido = 'Mota';
-let edad = 52;
+let edad = 52;/* 
 
 //Si queremos imprimir la frase 'Hola Sonia Mota, tienes 52 años', como sabemos hasta ahora sería:
 console.log('Hola ' + nombre + ' ' + apellido + ', tienes ' + edad + ' años.');

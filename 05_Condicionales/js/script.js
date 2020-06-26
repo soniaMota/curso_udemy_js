@@ -14,6 +14,7 @@ let num2 = 5;
 // Al tener más de una línea de código a ejecutar tenemos que poner las llaves
 
 
+// ===============================================================
 /* Condicional compuesto (if - else) -> Comprueba una cosa y la contraria */
 /* if(num1>0){
     console.log(`${num1} es mayor que 0`);
@@ -22,6 +23,7 @@ let num2 = 5;
 } */
 
 
+// =================================================================
 /* Condicional múltiple (if - else if - else) -> Se evalúan varias condiciones */
 // En el ejemplo anterior, si num1 es mayor que 0 entra por el if, y todo lo que no sea esa condición pasa por el else
 // Pero si num1 es igual a 0, imprimiría "0 es menor que 0" y eso no es cierto. 
@@ -35,6 +37,7 @@ let num2 = 5;
 } */
 
 
+// ===================================================================
 /* Operadores lógicos para  comprobar varias condiciones */
 
 /* && -> and */
@@ -52,6 +55,7 @@ let num2 = 5;
 // y se ejecute la línea de código, por lo que sí se imprimiría la línea "0 o 5 es mayor que 0"
 
 
+// =====================================================================
 /* If anidados */
 /* if(num1>0){
 

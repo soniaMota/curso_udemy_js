@@ -16,6 +16,7 @@
 
 let names = ['Paco', 'José', 'Paula', 'María'];
 
+
 // for of
 /* for(let name of names){
     console.log(name);

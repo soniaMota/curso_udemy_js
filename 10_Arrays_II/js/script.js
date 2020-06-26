@@ -1,6 +1,8 @@
 // Declaración e inicialización del array
-let numbers = [1,2,3,4,5];
+let numbers = [5, 3, 2, 4, 1];
+let words = ['hola', 'adiós', 'buenas', 'mañana', 'tarde']
 
+// ###############################################################
 /* 
     Arrays - Propiedad
         .length -> devuelve el número de posiciones que contiene el array
@@ -8,7 +10,7 @@ let numbers = [1,2,3,4,5];
 
 /* console.log(numbers.length); */
 
-
+// ###############################################################
 /* 
     Arrays - Métodos 
         Array.isArray(variable a evaluar) -> Devuelve true si la variable es una array
@@ -19,7 +21,7 @@ let numbers = [1,2,3,4,5];
 console.log(Array.isArray(number)); // Devuelve false porque la variable "number" no es un array
 console.log(Array.isArray(numbers)); // Devuelve true porque la variable "numbers" sí es un array */
 
-
+// ==============================================================
 /* 
         Eliminar un elemento
             .shift() -> Elimina el primer elemento del array y devuelve ese elemento
@@ -34,7 +36,7 @@ console.log(deleteElement); // Devuelve 1, que es el elemento eliminado y guarda
 /* console.log(numbers.pop()); //Devuelve el elemento eliminado: 5 */
 /* console.log(numbers); // Devuelve [1, 2, 3, 4]. Como vemos, el 5 ha sido eliminado */
 
-
+// =================================================================
 /* 
         Añadir elementos
             .push(element1, element2, ...) -> Añade uno o más elementos al final del array y devuelve la nueva longitud
@@ -49,6 +51,7 @@ console.log(nuevaLong); // Devuelve 9, que es la longitud que tiene ahora el arr
 console.log(numbers);  // Mostramos el array con todos los nuevos elementos añadidos: [0, 1, 2, 3, 4, 5, 6, 7, 8] */
 
 
+// =================================================================
 /* 
         .indexOf(element) -> Devuelve el primer índice del elemento que coincida con el valor especificado,
                     o -1 si no se ha encontrado ninguno
@@ -59,6 +62,7 @@ console.log(numbers.indexOf(2)); // Devuelve 1, que es la posición en la que se
 console.log(numbers.indexOf(6)); // Devuelve -1 porque el 6 no existe en nuestro array */
 
 
+// ===================================================================
 /* 
         .lastIndexOf(element) -> Devuelve el último índice del elemento que coincida con el valor especificado,
                         o -1 si no se encuentra ninguno
@@ -73,6 +77,7 @@ console.log(numbers.indexOf(1)); // En este caso devuelve la posición del prime
 console.log(numbers.lastIndexOf(1)); // En este caso devuelve la posición del último elemento coincidente: 5 */
 
 
+// =======================================================================
 /* 
         .reverse() -> Invierte el orden de los elementos del array
 */
@@ -82,6 +87,7 @@ numbers.reverse();
 console.log(numbers); // Devuelve [5, 4, 3, 2, 1] */
 
 
+// ==========================================================================
 /* 
         .join('separador') -> Devuelve un string con el separador que idiquemos, por defecto son comas
 */
@@ -93,6 +99,7 @@ let arrayString = numbers.join(' - ');
 console.log(arrayString); // Devuelve lo mismo que en el ejemplo anterior pero ahora lo tenemos guardado en memoria */
 
 
+// ==========================================================================
 /* 
         .splice(a, b, items) -> Cambia el contenido de un array eliminando elementos existentes 
                                 y/o agregando nuevos elementos.
@@ -111,6 +118,7 @@ console.log(arrayString); // Devuelve lo mismo que en el ejemplo anterior pero a
 console.log(numbers); // Devuelve el array como quedó después del splice() */
 
 
+// ============================================================================
 /* 
         .slice(a, b) -> Extrae elementos de un array desde el índice a (incluido) hasta el índice b (no incluido) y lo devuelve como un nuevo array. 
                         Si no esixte b, lo hace desde a hasta el final. 
@@ -123,3 +131,11 @@ newNumbers = numbers.slice(2); // Guarda en la variable newNumbers un array con 
 newNumbers = numbers.slice(1, 4); // Guarda en la variable newNumbers un array con los valores encontrados desde la posición a (en este caso 1) hasta la posición b (en este caso la 4)
 console.log(newNumbers); // Devuelve el array guardado en la variable newNumbers
  */
+
+
+//  ========================================================================
+ /* 
+        .sort() -> Ordena un array. Si el array es de strings lo ordena alfabéticamente
+        La forma de ordenar un array numérico lo veremos en el tema Array III  */
+
+ console.log(words.sort())

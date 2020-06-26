@@ -12,7 +12,7 @@ switch(evaluación){
         // código
 }
 
-
+// ============================================
 Sintaxis múltiple:
 switch(evaluación){
     case n1:
@@ -29,12 +29,12 @@ switch(evaluación){
         // código
 }
 
-
+// ==============================================
 Sintaxis múltiple encadenada:
 No se explica en este curso
 */
 
-
+// ##############################################################
 // Definición e inicialización de variables
 let num = 4;
 
